@@ -72,6 +72,7 @@ public class CONFIRMATION extends AppCompatActivity {
 
     public void sendSummary(View v){
         Toast.makeText(this, "Registration Sent", Toast.LENGTH_LONG).show();
+        setTitle("SUMMARY");
     }
 
     public void prevPage(View v){
